@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter Example</title>
+</head>
+<body>
+  <h1 id="counter">0</h1>
+  <button onclick="increase()">X</button>
+
+  <script>
+    let count = 0;
+    function increase() {
+      count++;
+      document.getElementById("counter").innerText = count;
+    }
+  </script>
+</body>
+</html>
