@@ -1,0 +1,21 @@
+body , html {
+    background-color: #6F00FF;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 150px;
+}
+button {
+  margin-left: 685px;
+  width: 150px; 
+  height: 150px; 
+  border-radius: 130px;
+  outline: none;
+  border: none;
+  background-color: #E9B3FB;
+}
+button:hover {
+  background-color: #b48fc1;
+}
